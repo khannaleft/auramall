@@ -1,7 +1,8 @@
 
 
+
 import React, { useState, useCallback } from 'react';
-import { Product } from '../types';
+import { Product } from '@/types';
 import Icon from './Icon';
 
 interface ProductDetailPageProps {

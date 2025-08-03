@@ -1,7 +1,7 @@
 "use client";
 
 import React from 'react';
-import { SortOption } from '../types';
+import { SortOption } from '@/types';
 import Icon from './Icon';
 
 interface ProductControlsProps {

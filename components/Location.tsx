@@ -1,6 +1,7 @@
 
+
 import React from 'react';
-import { Store } from '../types';
+import { Store } from '@/types';
 
 interface LocationProps {
   store: Store;

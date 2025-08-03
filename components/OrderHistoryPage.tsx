@@ -1,6 +1,7 @@
 
+
 import React from 'react';
-import { Order } from '../types';
+import { Order } from '@/types';
 import Icon from './Icon';
 
 interface OrderHistoryPageProps {

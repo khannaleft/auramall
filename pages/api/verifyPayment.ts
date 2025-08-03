@@ -1,8 +1,9 @@
 
+
 import type { NextApiRequest, NextApiResponse } from 'next';
 import * as crypto from 'crypto';
 import { db } from '../../lib/firebaseAdmin';
-import { Product } from '../../types';
+import { Product } from '@/types';
 
 // Helper to set CORS headers for PayU's webhook requests.
 const allowCors = (fn: (req: NextApiRequest, res: NextApiResponse) => Promise<void>) => async (req: NextApiRequest, res: NextApiResponse) => {

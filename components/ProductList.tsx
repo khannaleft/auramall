@@ -1,5 +1,5 @@
 import React from 'react';
-import { Product, CartItem } from '../types';
+import { Product, CartItem } from '@/types';
 import ProductCard from './ProductCard';
 
 interface ProductListProps {

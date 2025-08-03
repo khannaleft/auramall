@@ -1,6 +1,7 @@
 
+
 import React, { useState, useEffect } from 'react';
-import { Store, Toast } from '../types';
+import { Store, Toast } from '@/types';
 import Icon from './Icon';
 import { uploadToCloudinary } from '@/services/cloudinaryService';
 

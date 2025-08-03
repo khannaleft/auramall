@@ -1,8 +1,9 @@
 
 
 
+
 import React, { useState, useMemo } from 'react';
-import { Product, Order, DiscountCode, Store, Toast, User } from '../types';
+import { Product, Order, DiscountCode, Store, Toast, User } from '@/types';
 import Icon from './Icon';
 import AddProductModal from './AddProductModal';
 import EditProductModal from './EditProductModal';

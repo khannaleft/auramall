@@ -1,6 +1,7 @@
 
+
 import React, { useState, useEffect } from 'react';
-import { User, Store } from '../types';
+import { User, Store } from '@/types';
 import Icon from './Icon';
 
 interface ManageUserModalProps {

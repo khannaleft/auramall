@@ -3,7 +3,7 @@
 "use client";
 
 import React, { useState, useEffect } from 'react';
-import { User, CartItem } from '../types';
+import { User, CartItem } from '@/types';
 import Icon from './Icon';
 import { initiatePayUPayment } from '@/services/payuService';
 import { useAppContext } from '@/hooks/useAppContext';

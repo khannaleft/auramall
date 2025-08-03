@@ -2,7 +2,7 @@
 "use client";
 
 import React, { useState } from 'react';
-import { CartItem, DiscountCode } from '../types';
+import { CartItem, DiscountCode } from '@/types';
 import Icon from './Icon';
 
 interface CartModalProps {

@@ -1,7 +1,8 @@
 
 
+
 import React, { useState } from 'react';
-import { Product, Order, Store, Toast } from '../types';
+import { Product, Order, Store, Toast } from '@/types';
 import Icon from './Icon';
 
 interface StoreManagerPageProps {
