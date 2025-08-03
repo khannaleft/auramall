@@ -29,13 +29,13 @@ import {
 import { Product, Store, Order, DiscountCode, User } from '@/types';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCQ_SeHByThTTU9VLdNYnG3NDSOgUCFZI8",
-  authDomain: "aurakhanna-6f423.firebaseapp.com",
-  projectId: "aurakhanna-6f423",
-  storageBucket: "aurakhanna-6f423.appspot.com",
-  messagingSenderId: "146980316085",
-  appId: "1:146980316085:web:15761d0ed6f6c5b222affc",
-  measurementId: "G-SR4YRSXW95"
+  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
+  authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
+  measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID
 };
 
 const app = !getApps().length ? initializeApp(firebaseConfig) : getApp();

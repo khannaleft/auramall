@@ -1,11 +1,10 @@
-
 import { User, CartItem } from '../types';
 
 // Use the local Next.js API route for generating the hash.
 const GENERATE_HASH_URL = "/api/generateHash";
 
-// PayU Test Key (this is public and safe to have on the client)
-const PAYU_KEY = 'ykKLPl';
+// PayU Test Key from environment variables (this is public and safe to have on the client)
+const PAYU_KEY = process.env.NEXT_PUBLIC_PAYU_KEY;
 
 interface PaymentDetails {
     user: User;
